@@ -10,7 +10,7 @@ app.listen(port, function(){
     console.log("HTML 서버 시작됨");
 });
 
-//https://apis.data.go.kr/B552657/ErmctInsttInfoInqireService/getParmacyListInfoInqire?serviceKey=5kB9oiS%2BC1gYCXp%2BVxcY0b3%2BnJOlS3csuoG%2FCpJNsvkiXmd6JFuQ1ZX1tnNjJIsG1PtrAhCVnF5P80ZzzQ6Ibw%3D%3D&Q0=%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C&Q1=%EA%B0%95%EB%82%A8%EA%B5%AC&QT=1&QN=%EC%82%BC%EC%84%B1%EC%95%BD%EA%B5%AD&ORD=NAME&pageNo=1&numOfRows=10
+//https://apis.data.go.kr/B552657/ErmctInsttInfoInqireService/getParmacyListInfoInqire?serviceKey=5kB9oiS+C1gYCXp+VxcY0b3+nJOlS3csuoG/CpJNsvkiXmd6JFuQ1ZX1tnNjJIsG1PtrAhCVnF5P80ZzzQ6Ibw==
 
 
 // app.use()로 public_html 폴더 전체를 express 모듈 웹서버가 구동되게 했는데, 단 한 개의 페이지만 열어보자
