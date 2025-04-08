@@ -1,0 +1,54 @@
+*{margin: 0; padding: 0; border: 0;}
+li{list-style: none;}
+a{display: block; color: #333333; text-decoration: none; font-family: "맑은 고딕", Arial, Helvetica, sans-serif; font-size: 1.1em;}
+.ui-page-theme-a{display: block; color: #333333; text-decoration: none; font-family: "맑은 고딕", Arial, Helvetica, sans-serif; font-size: 1.1em;}
+.ui-page-theme-a a:hover{display: block; color: #333333; text-decoration: none; font-family: "맑은 고딕", Arial, Helvetica, sans-serif;}
+.ui-page-theme-a a:visited{display: block; color: #333333; text-decoration: none; font-family: "맑은 고딕", Arial, Helvetica, sans-serif;}
+
+.fl{float: left;}
+.fr{float: right;}
+.cf:after{display: block; content: ''; clear: both;}
+.cb{clear: both;}
+
+
+/* .ui-page-theme-a .ui-btn{padding: 0 0 0 0; border: none;} */
+
+.ui-page-theme-a .ui-btn {background: none; border: none; box-shadow: none; padding: -1px 0px 0px 0px;}
+
+
+
+
+#aside_panel{background: #b1ccc8;}
+    #aside_panel ul{margin-top: 4em;}
+    #aside_panel ul li{line-height: 3.2em; padding-left: 1em;}
+    #aside_panel ul li a{color: #333;}
+
+    #aside_panel ul li.aside_close{position: absolute; bottom: 10px; right: 35px;}
+    #aside_panel ul li.aside_close a{color: #333;}
+    #aside_panel ul li.aside_close img{position: absolute; bottom: 5px; right: 35px;}
+    
+    #aside_panel ul li.on{background: #6CA097; box-shadow: -2px 1px 5px #efefef;}
+    #aside_panel ul li.on a{color: #fff;}
+
+    .ui-page-theme-a a{color: #333; text-shadow: none; font-size: 1.2em; font-weight: normal;}
+    .ui-panel-inner{padding: 0;}
+
+#header{height: 70px; background-color: #52c6b1; position: relative;}
+    /* .ui-icon-my-icon:after{background: url(../images/nav_icon.png) no-repeat;} */
+    .arrow_l{position: absolute; top: 45%; transform: translate(0, -50%); right: 10px; width: 40px; height: 40px;}
+    .nav_r{position: absolute; top: 50%; transform: translate(0, -50%); right: 10px; width: 30px; height: 24px;}
+    .ui-page-theme-a .ui-btn{background: none; /* border: none; */ box-shadow: none; padding: 2px 0 0 0;}
+    .ui-page-theme-a .ui-btn:hover{background: none; /* border: none; */ box-shadow: none;}
+    #header h1{color: #fff; font-size: 1.6em;}
+
+
+#footer{height: 55px; background-color: #fff; border-top: 1px solid #6CA097;}
+    #footer ul{padding-top: 10px;}
+        #footer ul li.home img{margin-top: -2px;}
+
+    .ui-btn{border-style: none;}
+    .ui-bar{padding: 0px}
+
+
+
+

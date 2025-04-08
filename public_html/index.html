@@ -1,13 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html lang="ko-KR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>project_map</title>
-    <script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=8nnv7vku2z&amp;submodules=geocoder"></script>
-    <script src="./js/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/jquery.mobile-1.4.5.min.css" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/map.css">
+    <!-- script -->
+    <script src="./js/jquery-1.11.1.min.js"></script>
+    <script src="./js/jquery.mobile-1.4.5.min.js"></script>    
+    <script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=8nnv7vku2z&amp;submodules=geocoder"></script>
+    <script src="./js/jquery-3.7.1.min.js" integrity="eqaw4I9IoPldjffqieTL/h7z0ejA9zc/fyXt+05KMl4="crossorigin="anonymous"></script>
+
 </head>
 <body>
     <div style="margin-top: 20px; margin-bottom: 10px; font-weight: bold;">
@@ -35,9 +41,9 @@
             //여기서 변환된 주소는 reverseGeocode()의 두번째 파라미터(function)로 받는다.
             location: new naver.maps.LatLng(XY.lat, XY.lng)
             }, function(status, response){
-            let result = response.result;
+                let result = response.result;
             // result 하위 항목에서 주소를 꺼내기 위해서...
-            let items = result.items;
+                let items = result.items;
             //console.log(items[0].addrdetail.sido); //시도
             //console.log(items[0].addrdetail.sigugun); //시구군
 
