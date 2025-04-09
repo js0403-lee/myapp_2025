@@ -5,7 +5,7 @@
 
 
 
-
+li {list-style: none;}
 
 #map_header{height: 90px; background: rgba(177, 204, 200, 0.6);}
 .ui-input-search{width: 73%; margin-left: 3%; margin-top: 22px;}
